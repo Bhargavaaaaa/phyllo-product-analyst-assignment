@@ -16,7 +16,7 @@ I compared the published API documentation with the three captured API responses
 The monetary format mismatch is the most serious issue. The documentation specifies that monetary values are integers in the smallest currency unit, while the API returns decimal currency values. Any client implementing the API according to the documentation could calculate revenue incorrectly, affecting finance dashboards, reporting, and downstream billing systems.
 
 ## Task 2 — Revenue Calculation
-**Total Revenue:** **$307.34**
+**Total Revenue:** **$225.70**
 ### Assumptions Made
 
 - Included orders from both `orders_page1.json` and `orders_page2.json` because both files represent the same paginated order list.
